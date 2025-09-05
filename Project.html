@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Mombasa Youth Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Mombasa Youth Hub </h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html"
+                class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Page Intro -->
+         <section class="intro">
+            <h2>Youth-led Projects</h2>
+            <p>Explore inspiring initiatives led by youth in technology, 
+            art and community development.</p>
+         </section>
+         <!-- Filter Buttons -->
+          <section class="filters">
+            <button class="filter-btn.active" data-category="all">All</button>
+            <button class="filter-btn" data-category="tech">Tech</button>
+             <button class="filter-btn" data-category="art">Art</button>
+              <button class="filter-btn" data-category="community">Community</button>
+          </section>
+          <!-- Project Grid -->
+           <section class="projects-grid">
+            <div class="=project-card" data-category="tech">
+                <img src="images/project1.jpg" alt="Tech Project">
+                <h3>Mobile Coding Bootcamp</h3>
+                <p>Teaching coding skills to youth in underserved communities.</p>
+            </div>
+            <div class="project-card" data-category="art">
+                <img src="images/project2" alt="Art Project">
+                <p>A showcase of creative morals promoting peace and unity.</p>
+            </div>
+            <div class="project-card" data-category="community">
+                <img src="images/project3.jpg" alt="Community Project">
+                <h3>Clean Beach initiative</h3>
+                <p>Youth-led coastal cleanup campaigns for a sustainable future.</p>
+            </div>
+            <div class="project-card" data-category="tech">
+                <img src="images/project4" alt="Tech Project">
+                <h3>Digital Skills Training</h3>
+                <p>Workshop to equip young people with digital litracy.</p>
+            </div>
+           </section>
+    </main>
+</body>
+</html>
